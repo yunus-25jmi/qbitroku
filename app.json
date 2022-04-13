@@ -9,11 +9,11 @@
       "value": "http://raw..gist../rclone.conf"
     },
       "WEBPASSWORD": {
-      "description": "Torrent downloader website password",
+      "description": "downloader website password",
       "value": "Enter your new password here"
     },
       "WEBUSER": {
-      "description": "Torrent downloader website username (default username locked to developranaz for testing)",
+      "description": "downloader website username (default username locked to developranaz for testing)",
       "value": "Enter your new username here"
     }
 
