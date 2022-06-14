@@ -4,7 +4,7 @@ FROM developeranaz/qbittorrent-rclone-heroku
 RUN apt update 
 RUN apt install unzip 
 RUN apt install qbittorrent-nox -y
-RUN curl -y
+# RUN curl -y
 RUN apt install rclone -y
 COPY entrypoint.sh /entrypoint.sh 
 COPY qBconf.tar.gz /qBconf.tar.gz
